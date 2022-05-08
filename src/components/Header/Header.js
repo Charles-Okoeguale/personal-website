@@ -24,12 +24,7 @@ const Header = () =>  (
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>        
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>        
+      </li>              
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/Charles1403">
