@@ -1,3 +1,4 @@
+import { Head } from 'next/document';
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
@@ -41,3 +42,4 @@ const Header = () =>  (
 );
 
 export default Header;
+
