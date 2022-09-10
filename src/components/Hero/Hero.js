@@ -13,7 +13,7 @@ const Hero = (props) => (
           My name's Charles
         </SectionTitle>
         <SectionText>
-        A detail-oriented, organized, and meticulous software engineer with experience working across distributed teams. An enthusiastic team player ready to contribute to the company's success.
+        A frontend engineer with experience working across distributed teams. Proud team player focused on achieving project objectives with speed and accuracy.
         </SectionText>
       </LeftSection>
     </Section>

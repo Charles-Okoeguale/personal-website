@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: 'Alfred',
-    description: "An application that allows users run scheduled task on a database.",
+    description: "An application that allows users run scheduled tasks on a database.",
       tags: ['Typescript', 'React', 'GO'],
     source: 'https://www.usealfred.co/',
     id: 2,

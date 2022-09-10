@@ -31,7 +31,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node, Express, and Databases.
+            REST APIs, GraphQL and Databases.
           </ListParagraph>
         </ListContainer>
       </ListItem>
