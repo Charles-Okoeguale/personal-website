@@ -13,7 +13,7 @@ const Hero = (props) => (
           My name's Charles
         </SectionTitle>
         <SectionText>
-        I'm currently working at Zummit Africa where I am building the marketplace for Artificial Intelligence (AI) APIs. I <span style={{fontWeight: "900", color: "white"}}>dare mighty things.</span> 
+        I'm a software engineer with over 3 years of industry experience. I'm currently working at Zummit Africa, where I am building the marketplace for artificial intelligence (AI) APIs. I <span style={{fontWeight: "900", color: "white"}}>dare mighty things.</span> 
         </SectionText>
       </LeftSection>
     </Section>

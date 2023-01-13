@@ -35,7 +35,7 @@ export const Jobs = [
     company: "Zummit Africa -",
     title: "Frontend Engineer (Contract)",
     time: "October 2022 - Present",
-    description: "Building the marketplace for Artificial Intelligence (AI) APIs.",
+    description: "Building the marketplace for artificial intelligence (AI) APIs.",
     source: "https://zummitafrica.com/"
   },
   {
