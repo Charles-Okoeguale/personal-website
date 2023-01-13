@@ -8,7 +8,7 @@ export const Img = styled.img`
 `
 
 export const GridContainer = styled.section`
-display: grid;
+display: flex;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
@@ -89,9 +89,12 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color: white;
+background: linear-gradient(121.57deg, white 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 font-weight: 900;
 font-size: 2.5rem;
+border-radius: 0.1em;
 `;
 
 export const TagList = styled.ul`

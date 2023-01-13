@@ -13,7 +13,7 @@ const Hero = (props) => (
           My name's Charles
         </SectionTitle>
         <SectionText>
-        A frontend engineer with experience working across distributed teams. Proud team player focused on achieving project objectives with speed and accuracy.
+        I'm currently working at Zummit Africa where I am building the marketplace for Artificial Intelligence (AI) APIs. I <span style={{fontWeight: "900", color: "white"}}>dare mighty things.</span> 
         </SectionText>
       </LeftSection>
     </Section>

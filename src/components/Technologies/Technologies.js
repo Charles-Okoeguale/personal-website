@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
+      I've worked with a range a technologies in the Software development world.
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            HTML, CSS, Javascript, Typescript, and React.js.
+            HTML, CSS, Javascript, Typescript, and React JS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            REST APIs, GraphQL and Databases.
+            Node JS, Express JS, GraphQL, MongoDB, PostgreSQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +43,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+             Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

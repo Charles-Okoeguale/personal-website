@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import {ExternalLinks, GridContainer, Tag,} from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -11,23 +12,15 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
-            <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
-            <div>
-              <TagList>
-                {p.tags.map((t, i) => {
+          <div>
+            <ExternalLinks href={p.source}>{p.title} <AiOutlineArrowRight fontSize={15} color="#007bff"/></ExternalLinks>
+            <p style={{marginTop: 10, fontSize: '1em', color: 'rgba(255, 255, 255, 0.75)'}}>{p.description}</p>
+            <div style={{display: 'flex'}}>
+            {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
-              </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={p.source}>Visit</ExternalLinks>
-            </UtilityList>
-          </BlogCard>
+          </div>
         );
       })}
     </GridContainer>
