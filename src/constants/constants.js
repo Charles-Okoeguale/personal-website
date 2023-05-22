@@ -1,8 +1,15 @@
 export const projects = [
   {
+    title: 'Druz',
+    description: "A web app that enables a user to send anonymous messages to other users.",
+      tags: ['React', 'Typescript', 'Node JS', 'PostgreSQL'],
+    source: 'https://www.druz.xyz/',
+    id: 0,
+  },
+  {
     title: 'Split',
     description:"An application that enables users create joint accounts and split payments with friends.",
-    tags: ['React Native', 'Typescript', 'Node JS'],
+    tags: ['React Native', 'Typescript', 'Node JS', 'PostgreSQL'],
     source: 'https://letsplit.co/',
     id: 1,
   },
@@ -13,42 +20,28 @@ export const projects = [
     source: 'https://www.usealfred.co/',
     id: 2,
   },
-  {
-    title: 'Real Deal',
-    description: "A real-estate website that enables users to search for properties available for rent and sale in the UAE.",
-      tags: ['React', 'Javascript', 'Next JS'],
-    source: 'https://real-deal-kappa.vercel.app/',
-    id: 0,
-  },
-  {
-    title: 'Crypto-Tracker',
-    description: "A cryptocurrency price tracker, that helps users keep track of crypto prices.",
-      tags: ['React', 'Javascript'],
-    source: 'http://crypto-tracker-liard-three.vercel.app',
-    id: 3,
-  },
 ];
 
 
 export const Jobs = [
   {
     company: "Zummit Africa -",
-    title: "Frontend Engineer (Contract)",
+    title: "Frontend Developer",
     time: "October 2022 - Present",
     description: "Building the marketplace for artificial intelligence (AI) APIs.",
     source: "https://zummitafrica.com/"
   },
   {
     company: "Erodev Technologies -",
-    title: "Frontend Engineer",
+    title: "Frontend Developer",
     time: "August 2021 - September 2022",
     description: "Software solutions at a go.",
     source: "https://erodevtech.com/"
   },
   {
     company: "You & I -",
-    title: "Software Engineer",
-    time: "January 2020 - July 2021",
+    title: "Software Developer",
+    time: "Febuary 2019 - July 2021",
     description: "Worked on building a video-centric dating app.",
     source: ""
   }
