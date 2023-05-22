@@ -4,8 +4,8 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: '4', text: 'Employee of the month awards'},
-  { number: '3+', text: 'Years of work in the tech industry', },
+  { number: '27', text: 'Employee of the month awards'},
+  { number: '4', text: 'Years of work in the tech industry', },
   { number: '80%', text: 'Increase in positive reviews from intenship program.', }
 ];
 
