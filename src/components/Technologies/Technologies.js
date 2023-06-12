@@ -19,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            HTML5, CSS3, SASS, Javascript, Typescript, and React JS.
+            HTML5, CSS3, SASS, Javascript, Typescript, Next JS, React JS, and React Native.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,19 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node JS, Express JS, GraphQL, MongoDB, PostgreSQL.
+            Node JS, Express JS, and GraphQL.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+     <ListItem>
+        <picture>
+          <DiReact size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            MongoDB, PostgreSQL, and MySQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +55,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-             Figma
+             Figma and Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,8 +67,9 @@ const Technologies = () =>  (
           <ListTitle></ListTitle>
           <ListParagraph>
             Experience with <br />
-            version control systems <br />
-            like Git and Github.
+            Vite, Webpack, NPM, AWS
+            <br />
+            Git, Jest, Cypress, Jasmine, and React Testing Library.
           </ListParagraph>
         </ListContainer>
       </ListItem>
