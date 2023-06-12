@@ -69,7 +69,7 @@ const Technologies = () =>  (
             Experience with <br />
             Vite, Webpack, NPM, AWS
             <br />
-            Git, Jest, Cypress, Jasmine, and React Testing Library.
+            Git, Jest, Cypress, React Testing Library, and Jasmine.
           </ListParagraph>
         </ListContainer>
       </ListItem>
