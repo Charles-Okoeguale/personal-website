@@ -26,23 +26,20 @@ export const projects = [
 export const Jobs = [
   {
     company: "Zummit Africa -",
-    title: "Frontend Developer",
+    title: "Frontend Engineer",
     time: "October 2022 - Present",
-    description: "Building the marketplace for artificial intelligence (AI) APIs.",
     source: "https://zummitafrica.com/"
   },
   {
     company: "Erodev Technologies -",
-    title: "Frontend Developer",
+    title: "Frontend Engineer",
     time: "August 2021 - September 2022",
-    description: "Software solutions at a go.",
     source: "https://erodevtech.com/"
   },
   {
     company: "You & I -",
-    title: "Software Developer",
+    title: "Software Engineer",
     time: "Febuary 2019 - July 2021",
-    description: "Worked on building a video-centric dating app.",
     source: ""
   }
 ]
