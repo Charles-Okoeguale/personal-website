@@ -17,7 +17,6 @@ const Experience = () => (
             <p>Remote</p>
             <p style={{margin: '0.5em 0', fontSize: '1.3em', color: 'white',  fontWeight: '900'}}>{p.title}</p>
             <p style={{fontSize: 13}}>{p.time}</p>
-            <p style={{fontSize: '0.8em', marginTop: '0.7em'}}>{p.description}</p>
           </div>
         );
       })}
