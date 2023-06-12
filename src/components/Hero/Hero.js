@@ -13,7 +13,7 @@ const Hero = (props) => (
           My name's Charles
         </SectionTitle>
         <SectionText>
-        I am a Frontend developer with over 4 years of experience developing and maintaining complex software systems, system design, database integration, software architecture, and deploying applications. I <span style={{fontWeight: "900", color: "white"}}>dare mighty things.</span> 
+        I am a Frontend developer with a passion for creating aesthetically pleasing, intuitive user Interfaces and crafting code that operates like a well-oiled machine. I am a quick learner, a creative problem solver, and most importantly a team player. 
         </SectionText>
       </LeftSection>
     </Section>
