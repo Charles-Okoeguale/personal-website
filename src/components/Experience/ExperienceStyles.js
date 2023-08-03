@@ -10,7 +10,7 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
 display: flex;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
+padding: 1rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
@@ -89,7 +89,7 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-background: linear-gradient(121.57deg, white 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+background: linear-gradient(121.57deg, white 18.77%, white 60.15%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-weight: 900;

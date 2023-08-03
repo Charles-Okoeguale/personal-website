@@ -5,11 +5,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a range a technologies in the Software development world.
-    </SectionText>
     <List>
       <ListItem>
         <picture>
@@ -56,20 +52,6 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
              Figma and Adobe XD
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle></ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Vite, Webpack, NPM, AWS
-            <br />
-            Git, Jest, Cypress, React Testing Library, and Jasmine.
           </ListParagraph>
         </ListContainer>
       </ListItem>

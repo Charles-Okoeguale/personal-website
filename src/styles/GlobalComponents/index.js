@@ -23,14 +23,14 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '30px' : '30px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -77,7 +77,7 @@ export const SectionDivider = styled.div`
   background: ${(props) => props.colorAlt ? 
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
-    margin: ${(props) => props.divider ? "4rem 0" : "" };
+    margin: ${(props) => props.divider ? "1rem 0" : "" };
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
     height: 4px;

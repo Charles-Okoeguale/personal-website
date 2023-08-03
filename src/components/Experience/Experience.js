@@ -7,16 +7,15 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Experience = () => (
   <Section nopadding id="projects">
-    <SectionDivider />
-    <SectionTitle main>Experience</SectionTitle>
+    <SectionTitle main>Job Experiences 💼</SectionTitle>
     <GridContainer>
       {Jobs.map((p, i) => {
         return (
-          <div key={i}>
+          <div key={i} style={{marginRight: '2em'}}>
             <ExternalLinks href={p.source}>{p.company}</ExternalLinks>
-            <p>Remote</p>
-            <p style={{margin: '0.5em 0', fontSize: '1.3em', color: 'white',  fontWeight: '900'}}>{p.title}</p>
+            <p style={{fontSize: 13, margin: '0.5em 0'}}>{p.location}</p>
             <p style={{fontSize: 13}}>{p.time}</p>
+            <p style={{fontSize: 13, margin: '1em 0', color: 'rgba(255, 255, 255, 0.5)'}}>{p.description}</p>
           </div>
         );
       })}

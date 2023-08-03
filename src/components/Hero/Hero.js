@@ -9,11 +9,13 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi,<br />
-          My name's Charles
+          Hi, i'm <span style={{fontWeight: 900}}>Charles.</span> 
         </SectionTitle>
         <SectionText>
-        I am a Frontend Engineer with a passion for creating aesthetically pleasing, intuitive user Interfaces and crafting code that operates like a well-oiled machine. I am a quick learner, a creative problem solver, and most importantly a team player. 
+        A Frontend Engineer, quick learner, creative thinker, and most importantly a <span style={{fontWeight: 900, color: 'white'}}>team player.</span> 
+        </SectionText>
+        <SectionText>
+          Get in touch 👉 <a href="mailto:egualecharles@gmail.com" style={{color: 'white'}}>egualecharles@gmail.com</a>
         </SectionText>
       </LeftSection>
     </Section>
