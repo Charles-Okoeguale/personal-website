@@ -12,7 +12,7 @@ const Hero = (props) => (
           Hi, i'm <span style={{fontWeight: 900}}>Charles.</span> 
         </SectionTitle>
         <SectionText>
-        A Frontend Engineer who is a quick learner, creative thinker, and most importantly a <span style={{fontWeight: 900, color: 'white'}}>team player.</span> 
+         <span style={{color: 'white', fontWeight: '900'}}>Collaboration Champion</span>: How this Full Stack Developer prioritizes teamwork for optimal results.
         </SectionText>
         <SectionText>
           Get in touch 👉 <a href="mailto:egualecharles@gmail.com" style={{color: 'white'}}>egualecharles@gmail.com</a>

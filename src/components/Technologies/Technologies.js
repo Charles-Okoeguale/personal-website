@@ -15,7 +15,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            HTML5, CSS3, SASS, Javascript, Typescript, Next JS, React JS, and React Native.
+            HTML5, CSS3, SASS, Javascript, Typescript, Next JS, React JS, Vue JS, and React Native.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +39,7 @@ const Technologies = () =>  (
           <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            MongoDB, PostgreSQL, and MySQL.
+            MongoDB, and PostgreSQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
