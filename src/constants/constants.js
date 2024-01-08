@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'Teal',
-    description: "Teal is a web application built for logistics businesses to help view and manage all deliveries in one central location for easy organization and oversight. I  developed the landing page using Vue JS and Typescript. ",
-      tags: ['Vue JS', 'Typescript', 'Node JS', 'Express JS', 'PostgreSQL'],
-    source: 'https://www.shipteal.com/',
+    title: 'Zi',
+    description: "Zi is a web application that is designed for users to compare images and videos online. The main goal is to enhance the polling experience with a social media touch. ",
+      tags: ['React JS', 'Javascript', 'Node JS', 'Express JS', 'MongoDB', 'Cloudinary'],
+    source: 'https://www.linkedin.com/posts/okoeguale-charles_zi-compare-your-images-and-videos-online-activity-7148243027986219008-ohvg?utm_source=share&utm_medium=member_ios',
     id: 0,
   },
   {
@@ -25,7 +25,7 @@ export const Jobs = [
   },
   {
     company: "You & I - Full Stack Developer",
-    time: "September 2020 - October 2022",
+    time: "January 2020 - October 2022",
     location: 'Houston, Texas, United States · Remote',
     description: 'Worked on a video centric dating app. Possesses interactive and engaging features such as swipe gestures, chat functionalities, notifications, and gamification elements.'
   }
