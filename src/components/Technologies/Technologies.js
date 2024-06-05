@@ -12,10 +12,9 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            HTML5, CSS3, SASS, Javascript, Typescript, Next JS, React JS, Vue JS, and React Native.
+            Javascript and Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -24,10 +23,9 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Frameworks, Libraries, and Environments</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node JS, Express JS, and GraphQL.
+            React, React-Native, Express, Apollo (GraphQL), Next JS, Node JS.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,10 +34,9 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Database</ListTitle>
+          <ListTitle>Tools and Others</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            MongoDB, and PostgreSQL.
+            MongoDB, PostgreSQL, Postman, ChromeDevTools, Docker, Git, GitHub, Linux, MySQL, Figma.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -47,13 +44,6 @@ const Technologies = () =>  (
         <picture>
           <DiZend size="3rem" />
         </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-             Figma and Adobe XD
-          </ListParagraph>
-        </ListContainer>
       </ListItem>
     </List>
     <SectionDivider colorAlt />

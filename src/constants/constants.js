@@ -1,33 +1,32 @@
 export const projects = [
   {
-    title: 'Zi',
-    description: "Zi is a web application that is designed for users to compare images and videos online. The main goal is to enhance the polling experience with a social media touch. ",
-      tags: ['React JS', 'Javascript', 'Node JS', 'Express JS', 'MongoDB', 'Cloudinary'],
-    source: 'https://www.linkedin.com/posts/okoeguale-charles_zi-compare-your-images-and-videos-online-activity-7148243027986219008-ohvg?utm_source=share&utm_medium=member_ios',
+    title: 'Shuffle',
+    description: "Shuffle Local Market is creating pathways to connect millions of sellers and buyers in Africa, equipping our customers with innovative trading technology to accelerate growth and sustainability.",
+    tags: ['Available on App store & Play store'],
+    source: 'https://shufflelocalmarket.com/',
     id: 0,
   },
-  {
-    title: 'Druz',
-    description: "A web app that enables a user to send anonymous messages to other users.",
-      tags: ['React', 'Typescript', 'Node JS', 'PostgreSQL'],
-    source: 'https://www.druz.xyz/',
-    id: 1,
-  },
-];
+]; 
 
 
 export const Jobs = [
   {
-    company: "Let's Split - Front End Developer",
-    time: "November 2022 - Present",
-    location: 'Montreal, Quebec, Canada · Remote',
-    description: 'Building Let’s Split, a financial service app that makes it easier to track and come to terms with shared expenses. By showing you your transaction history, allowing you to send split request and receive money, the app keeps splitting basic bills simple.'
+    company: "TRIBES - Software Engineer",
+    time: "March 2021 - March 2024",
+    location: 'Remote',
+    description: 'Worked on building scalable and innovative solutions for clients.'
   },
   {
-    company: "You & I - Full Stack Developer",
-    time: "January 2020 - October 2022",
-    location: 'Houston, Texas, United States · Remote',
-    description: 'Worked on a video centric dating app. Possesses interactive and engaging features such as swipe gestures, chat functionalities, notifications, and gamification elements.'
+    company: "Telesoftas - Software Engineer",
+    time: "April 2019 - Febuary 2021",
+    location: 'Remote',
+    description: 'Building innovative IT solutions for businesses.'
+  },
+  {
+    company: "Telesoftas - Software Engineer (Internship)",
+    time: "January 2019 - March 2019",
+    location: 'Remote',
+    description: 'Building innovative IT solutions for businesses.'
   }
 ]
 

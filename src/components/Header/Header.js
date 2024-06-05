@@ -1,27 +1,30 @@
-import { Head } from 'next/document';
-import Link from 'next/link';
-import React from 'react';
+import React, { useContext } from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import Switch from '@mui/material/Switch';
+import { Container, Div1, Div3, SocialIcons } from './HeaderStyles';
+import { useState } from 'react';
+import { appContext } from '../../styles/theme';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
-const Header = () =>  (
-  <Container>
-    <Div1>
-      <SocialIcons href="https://github.com/Charles-Okoeguale">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/okoeguale-charles/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://twitter.com/Kvn_kay">
-        <AiFillTwitterCircle size="3rem"/>
-      </SocialIcons>
-    </Div1>
-      <Div3></Div3>
+const Header = () =>  {
+
+  return (
+    <Container>
+      <Div1>
+        <SocialIcons href="https://github.com/Charles-Okoeguale">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/okoeguale-charles/">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://twitter.com/Kvn_kay">
+          <AiFillTwitterCircle size="3rem"/>
+        </SocialIcons>
+      </Div1>
     </Container>
-);
+  )
+}
 
 export default Header;
 
