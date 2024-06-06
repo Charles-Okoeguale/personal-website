@@ -6,13 +6,20 @@ export const projects = [
     source: 'https://shufflelocalmarket.com/',
     id: 0,
   },
+  {
+    title: 'Perfect Sender',
+    description: "Enhance your whatsapp experience. Send customised messages, send image, video and document attachments, to groups, labels. Stay connected with your clients. ",
+    tags: ['Available on Chrome store'],
+    source: 'https://chromewebstore.google.com/detail/nnpknhdphgkjbnalfggncdimcnjbmagn',
+    id: 1,
+  },
 ]; 
 
 
 export const Jobs = [
   {
     company: "TRIBES - Software Engineer",
-    time: "March 2021 - March 2024",
+    time: "March 2021 - May 2024",
     location: 'Remote',
     description: 'Worked on building scalable and innovative solutions for clients.'
   },
