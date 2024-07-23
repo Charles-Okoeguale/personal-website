@@ -6,7 +6,7 @@ const BackgroundAnimation = () => (
         width="600"
         height="315"
         frameBorder="0"
-        src="https://youtube.com/shorts/IoAS-jH7jPA?si=DrN8L0eOb6suZAkH"
+        src="https://www.youtube.com/shorts/IoAS-jH7jPA"
         title="YouTube Video Player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -15,7 +15,6 @@ const BackgroundAnimation = () => (
 );
 
 export default BackgroundAnimation;
-
 
 
 {/* <svg
