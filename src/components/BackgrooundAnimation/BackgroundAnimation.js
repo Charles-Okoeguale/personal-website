@@ -6,7 +6,7 @@ const BackgroundAnimation = () => (
         width="600"
         height="315"
         frameBorder="0"
-        src="https://www.youtube.com/embed/rTMLrcFU1vQ?autoplay=1&controls=0"
+        src="https://youtube.com/shorts/IoAS-jH7jPA?si=DrN8L0eOb6suZAkH"
         title="YouTube Video Player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
