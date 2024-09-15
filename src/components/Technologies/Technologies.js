@@ -25,7 +25,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Frameworks, Libraries, and Environments</ListTitle>
           <ListParagraph>
-            React, React-Native, Express, Apollo (GraphQL), Next JS, Node JS.
+            React, React-Native, Express, Apollo (GraphQL), Next JS, Node JS, Golang.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,7 +36,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Tools and Others</ListTitle>
           <ListParagraph>
-            MongoDB, PostgreSQL, Postman, ChromeDevTools, Docker, Git, GitHub, Linux, MySQL, Figma.
+            MongoDB, PostgreSQL, Docker, Git, GitHub, MySQL, Figma.
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,16 +1,14 @@
 export const projects = [
   {
-    title: 'Shuffle',
-    description: "Shuffle Local Market is creating pathways to connect millions of sellers and buyers in Africa, equipping our customers with innovative trading technology to accelerate growth and sustainability.",
-    tags: ['Available on App store & Play store'],
-    source: 'https://shufflelocalmarket.com/',
+    title: 'Ping-Pong',
+    description: "A multiplayer ping-pong game",
+    source: 'https://github.com/Charles-Okoeguale/ping-pong-',
     id: 0,
   },
   {
-    title: 'Perfect Sender',
-    description: "Enhance your whatsapp experience. Send customised messages, send image, video and document attachments, to groups, labels. Stay connected with your clients. ",
-    tags: ['Available on Chrome store'],
-    source: 'https://chromewebstore.google.com/detail/nnpknhdphgkjbnalfggncdimcnjbmagn',
+    title: 'Zi',
+    description: "A multimedia comparison tool",
+    source: 'https://github.com/XXXX-pp/Backend',
     id: 1,
   },
 ]; 
@@ -18,20 +16,20 @@ export const projects = [
 
 export const Jobs = [
   {
-    company: "TRIBES - Software Engineer",
-    time: "March 2021 - May 2024",
+    company: "LetSplit - Software Engineer",
+    time: "March 2022 - Present",
     location: 'Remote',
-    description: 'Worked on building scalable and innovative solutions for clients.'
+    description: 'Multiplayer finance.'
   },
   {
     company: "Telesoftas - Software Engineer",
-    time: "April 2019 - Febuary 2021",
+    time: "April 2020 - January 2022",
     location: 'Remote',
-    description: 'Building innovative IT solutions for businesses.'
+    description: 'Tech-driven solutions transforming digital experiences.'
   },
   {
-    company: "Telesoftas - Software Engineer (Internship)",
-    time: "January 2019 - March 2019",
+    company: "Tribes - Frontend Engineer",
+    time: "January 2019 - March 2020",
     location: 'Remote',
     description: 'Building innovative IT solutions for businesses.'
   }

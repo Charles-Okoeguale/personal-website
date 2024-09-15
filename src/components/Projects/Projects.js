@@ -7,18 +7,13 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionTitle main>Projects ⚙️</SectionTitle>
+    <SectionTitle main>Open source contribution ⚙️</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
           <div>
             <ExternalLinks href={p.source}>{p.title} <AiOutlineArrowRight fontSize={15} color="#007bff"/></ExternalLinks>
             <p style={{marginTop: 10, fontSize: '1em', color: 'rgba(255, 255, 255, 0.75)'}}>{p.description}</p>
-            <div style={{display: 'flex'}}>
-            {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-            </div>
           </div>
         );
       })}
