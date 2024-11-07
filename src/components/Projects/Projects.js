@@ -11,9 +11,10 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <div>
+          <div key={i}>
             <ExternalLinks href={p.source}>{p.title} <AiOutlineArrowRight fontSize={15} color="#007bff"/></ExternalLinks>
             <p style={{marginTop: 10, fontSize: '1em', color: 'rgba(255, 255, 255, 0.75)'}}>{p.description}</p>
+            <p style={{marginTop: 10, fontSize: '0.9em', color: 'lightblue'}}>{p.tech}</p>
           </div>
         );
       })}

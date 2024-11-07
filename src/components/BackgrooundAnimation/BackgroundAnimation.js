@@ -2,7 +2,7 @@ import React from 'react';
 
 const BackgroundAnimation = () => (
   <div style={{display: 'flex', justifyContent: 'center'}}>
-        <iframe
+        {/* <iframe
         width="600"
         height="315"
         frameBorder="0"
@@ -10,7 +10,7 @@ const BackgroundAnimation = () => (
         title="YouTube Video Player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        ></iframe>
+        ></iframe> */}
     </div>
 );
 
