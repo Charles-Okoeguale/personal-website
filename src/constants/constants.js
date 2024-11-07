@@ -1,15 +1,27 @@
 export const projects = [
   {
-    title: 'Ping-Pong',
-    description: "A multiplayer ping-pong game",
-    source: 'https://github.com/Charles-Okoeguale/ping-pong-',
+    title: 'Darkan',
+    description: "A property management platform",
+    source: 'https://darktan-rewrite.vercel.app/',
     id: 0,
   },
   {
-    title: 'Zi',
-    description: "A multimedia comparison tool",
-    source: 'https://github.com/XXXX-pp/Backend',
+    title: 'Ping-Pong',
+    description: "A multiplayer ping-pong game",
+    source: 'https://github.com/Charles-Okoeguale/ping-pong-',
     id: 1,
+  },
+  {
+    title: 'Boo-Ik',
+    description: "An AI-powered PDF processing tool that generates contextually relevant responses. (GitHub link and demo available upon request)",
+    source: '',
+    id: 2,
+  },
+  {
+    title: 'Perfect Sender',
+    description: "A Chrome extension that simplifies client communication on WhatsApp through personalized messages and media attachments.",
+    source: 'https://theperfectsender.com/',
+    id: 3,
   },
 ]; 
 

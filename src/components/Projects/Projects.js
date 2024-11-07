@@ -7,7 +7,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionTitle main>Open source contribution ⚙️</SectionTitle>
+    <SectionTitle main>Projects ⚙️</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
